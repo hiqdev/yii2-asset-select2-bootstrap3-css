@@ -1,0 +1,63 @@
+{
+    "package": {
+        "name":         "yii2-asset-select2-bootstrap-css",
+        "title":        "Select2 Bootstrap 3 CSS extension for Yii2",
+        "type":         "yii2-extension",
+        "features":     "yii2, extension",
+        "license":      "BSD-3-Clause",
+        "forum":        "https://forum.hiqdev.com/yii2",
+        "language":     "PHP",
+        "keywords":     "select2, bootstrap, extension, yii2",
+        "year":         2015
+    },
+    "vendor": {
+        "name":         "hiqdev",
+        "title":        "HiQDev",
+        "homepage":     "https://hiqdev.com/",
+        "email":        "support@hiqdev.com",
+        "authors": {
+            "Andrii Vasyliev": {
+                "role":     "Project lead",
+                "email":    "sol@hiqdev.com",
+                "homepage": "https://hipanel.com/"
+            },
+            "Dmitry Naumenko": {
+                "role":     "Lead backend developer",
+                "email":    "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/"
+            },
+            "Andrey Klochok": {
+                "role":     "Lead frontend developer",
+                "email":    "tafid@hiqdev.com",
+                "homepage": "https://hiqdev.com/"
+            },
+            "Yuriy Myronchuk": {
+                "role":     "QA Lead",
+                "email":    "bladeroot@hiqdev.com",
+                "homepage": "https://hiqdev.com/"
+            }
+        }
+    },
+    "deps": "all",
+    "all": {
+        "deps": "git, composer, LICENSE, README.md, CHANGELOG.md"
+    },
+    "composer.json": {
+        "require": {
+            "php":                              ">=5.4.0",
+            "yiisoft/yii2":                     "2.*",
+            "npm-asset/select2-bootstrap-css":  "dev-bootstrap3"
+        },
+        "autoload": {
+            "psr-4": {
+                "hiqdev\\assets\\select2-bootstrap-css\\": ""
+            }
+        },
+        "extra": {
+            "asset-installer-paths": {
+                "npm-asset-library":    "vendor/npm",
+                "bower-asset-library":  "vendor/bower"
+            }
+        }
+    }
+}
