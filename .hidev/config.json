@@ -1,6 +1,6 @@
 {
     "package": {
-        "name":         "yii2-asset-select2-bootstrap-css",
+        "name":         "yii2-asset-select2-bootstrap3-css",
         "title":        "Yii2 asset for Select2 Bootstrap 3 CSS",
         "type":         "yii2-extension",
         "features":     "yii2, extension",
@@ -45,18 +45,12 @@
     },
     "composer.json": {
         "require": {
-            "yiisoft/yii2":                     "~2.0",
-            "npm-asset/select2-bootstrap-css":  "dev-bootstrap3"
+            "yiisoft/yii2":                         "~2.0",
+            "silverfire/select2-bootstrap3-css":    "~1.5"
         },
         "autoload": {
             "psr-4": {
-                "hiqdev\\assets\\select2_bootstrap_css\\": ""
-            }
-        },
-        "extra": {
-            "asset-installer-paths": {
-                "npm-asset-library":    "vendor/npm",
-                "bower-asset-library":  "vendor/bower"
+                "hiqdev\\assets\\select2_bootstrap3_css\\": ""
             }
         }
     }

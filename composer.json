@@ -9,13 +9,13 @@
         "extension",
         "yii2"
     ],
-    "homepage": "https://hiqdev.com/yii2-asset-select2-bootstrap-css",
+    "homepage": "https://hiqdev.com/yii2-asset-select2-bootstrap3-css",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/yii2-asset-select2-bootstrap-css",
-        "issues": "https://github.com/hiqdev/yii2-asset-select2-bootstrap-css/issues",
-        "wiki": "https://github.com/hiqdev/yii2-asset-select2-bootstrap-css/wiki",
+        "source": "https://github.com/hiqdev/yii2-asset-select2-bootstrap3-css",
+        "issues": "https://github.com/hiqdev/yii2-asset-select2-bootstrap3-css/issues",
+        "wiki": "https://github.com/hiqdev/yii2-asset-select2-bootstrap3-css/wiki",
         "forum": "https://forum.hiqdev.com/yii2"
     },
     "authors": [
