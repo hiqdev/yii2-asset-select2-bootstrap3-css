@@ -46,7 +46,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0",
-        "npm-asset/select2-bootstrap-css": "dev-bootstrap3@dev"
+        "npm-asset/select2-bootstrap-css": "dev-bootstrap3 as 1.4.6"
     },
     "autoload": {
         "psr-4": {
