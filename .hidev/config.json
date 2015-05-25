@@ -1,13 +1,13 @@
 {
     "package": {
         "name":         "yii2-asset-select2-bootstrap-css",
-        "title":        "Select2 Bootstrap 3 CSS extension for Yii2",
+        "title":        "Yii2 asset for Select2 Bootstrap 3 CSS",
         "type":         "yii2-extension",
         "features":     "yii2, extension",
         "license":      "BSD-3-Clause",
         "forum":        "https://forum.hiqdev.com/yii2",
         "language":     "PHP",
-        "keywords":     "select2, bootstrap, extension, yii2",
+        "keywords":     "select2, bootstrap, asset, extension, yii2",
         "year":         2015
     },
     "vendor": {
@@ -44,13 +44,13 @@
     },
     "composer.json": {
         "require": {
-            "php":                              ">=5.4.0",
-            "yiisoft/yii2":                     "2.*",
+            "php":                              "~5.4",
+            "yiisoft/yii2":                     "~2.0",
             "npm-asset/select2-bootstrap-css":  "dev-bootstrap3"
         },
         "autoload": {
             "psr-4": {
-                "hiqdev\\assets\\select2-bootstrap-css\\": ""
+                "hiqdev\\assets\\select2_bootstrap_css\\": ""
             }
         },
         "extra": {
