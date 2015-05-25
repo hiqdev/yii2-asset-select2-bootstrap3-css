@@ -8,7 +8,7 @@
         "forum":        "https://forum.hiqdev.com/yii2",
         "language":     "PHP",
         "keywords":     "select2, bootstrap, asset, extension, yii2",
-        "description":  "Wrapper around bower package with copied versions.",
+        "description":  "Wrapper around SilverFire/select2-bootstrap3-css with copied versions.",
         "year":         2015
     },
     "vendor": {
