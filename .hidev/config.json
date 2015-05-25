@@ -8,6 +8,7 @@
         "forum":        "https://forum.hiqdev.com/yii2",
         "language":     "PHP",
         "keywords":     "select2, bootstrap, asset, extension, yii2",
+        "description":  "Wrapper around bower package with copied versions.",
         "year":         2015
     },
     "vendor": {
@@ -45,7 +46,7 @@
     "composer.json": {
         "require": {
             "yiisoft/yii2":                     "~2.0",
-            "npm-asset/select2-bootstrap-css":  "dev-bootstrap3 as 1.4.6"
+            "npm-asset/select2-bootstrap-css":  "dev-bootstrap3"
         },
         "autoload": {
             "psr-4": {
@@ -54,7 +55,8 @@
         },
         "extra": {
             "asset-installer-paths": {
-                "npm-asset-library": "vendor/npm"
+                "npm-asset-library":    "vendor/npm",
+                "bower-asset-library":  "vendor/bower"
             }
         }
     }
