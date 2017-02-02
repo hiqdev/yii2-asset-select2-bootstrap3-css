@@ -50,7 +50,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\assets\\select2_bootstrap3_css\\": ""
+            "hiqdev\\assets\\select2_bootstrap3_css\\": "src"
         }
     }
 }
