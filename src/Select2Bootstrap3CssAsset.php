@@ -15,8 +15,6 @@ namespace hiqdev\assets\select2_bootstrap3_css;
 class Select2Bootstrap3CssAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@vendor/silverfire/select2-bootstrap3-css';
-
-    public $css = [
-        'select2-bootstrap.min.css'
-    ];
+    public $css = ['select2-bootstrap.min.css'];
+    public $publishOptions = ['only' => ['select2-bootstrap.min.css']];
 }
